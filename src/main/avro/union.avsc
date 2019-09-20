@@ -1,0 +1,7 @@
+{"namespace": "example.avro",
+ "type": "record",
+ "name": "Union",
+ "fields": [
+     {"name": "some_union_field", "type": ["string", "int", "double"]}
+ ]
+}
